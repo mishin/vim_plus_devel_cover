@@ -24,10 +24,10 @@ use Carp;
 
 #use Smart::Comments;
 
-Readonly my $DEFAULT_PROVE_CMD  => '/usr/bin/prove';
+Readonly my $DEFAULT_PROVE_CMD  => '/usr/local/bin/cover';
 Readonly my $DEFAULT_PROVE_ARGS => q{};
 
-Readonly my $DEFAULT_COVER_CMD => '/usr/bin/cover';
+Readonly my $DEFAULT_COVER_CMD => '/usr/local/bin/cover';
 ## no critic (RequireInterpolationOfMetachars)
 Readonly my $DEFAULT_COVER_ARGS => q{-ignore_re '[.]t$'};
 ## use critic
